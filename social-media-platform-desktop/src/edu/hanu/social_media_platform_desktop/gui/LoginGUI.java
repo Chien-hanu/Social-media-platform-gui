@@ -71,8 +71,8 @@ public class LoginGUI extends JFrame {
 		lbRegister.setLocation(180, 195);
 		lbRegister.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
-//			       frame = new JFrame("new frame");
-//			       frame.setVisible(true);
+				RegisterGUI registerGUI = new RegisterGUI();
+				registerGUI.setVisible(true);
 			}
 		});
 		add(lbRegister);
