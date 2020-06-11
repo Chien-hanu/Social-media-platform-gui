@@ -20,6 +20,7 @@ public class ForgotPasswordGUI extends JFrame {
 	private PlaceHolderTextField textAnswer;
 	private JButton btnResetPassword;
 	private JLabel lbBackToLogin;
+	@SuppressWarnings("rawtypes")
 	private JComboBox listQuestions;
 	private JLabel lbSelectQuestion;
 
@@ -31,6 +32,7 @@ public class ForgotPasswordGUI extends JFrame {
 		initPanels();
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	private void initPanels() {
 		// TODO Auto-generated method stub
 		lbForgotPassword = new JLabel("Forgot Password?");
